@@ -1,0 +1,51 @@
+MIT License
+
+Copyright (c) 2026 The HOLE Foundation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+IMPORTANT LEGAL NOTICE FOR LAW ENFORCEMENT USE:
+
+This software is provided for law enforcement and legal professionals to
+process digital evidence. Users are responsible for:
+
+1. Compliance with all applicable laws and regulations
+2. Proper chain of custody procedures
+3. Evidence handling protocols
+4. Privacy and security requirements
+5. Court rules regarding digital evidence
+
+The authors assume no liability for:
+- Improper evidence handling
+- Chain of custody breaks
+- Privacy violations
+- Legal admissibility issues
+- Loss or corruption of evidence
+
+ALWAYS:
+- Follow your agency's evidence handling protocols
+- Consult with legal counsel
+- Maintain original evidence files
+- Document all processing steps
+- Verify integrity at every stage
+
+This software does not provide legal advice. Consult qualified legal
+professionals for guidance on evidence admissibility and legal procedures.

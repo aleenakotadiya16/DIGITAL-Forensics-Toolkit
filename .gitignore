@@ -1,0 +1,65 @@
+# Digital Evidence Gallery Generator - Git Ignore
+
+# Evidence files (NEVER commit actual evidence)
+input/*/
+!input/.gitkeep
+
+# Generated output (NEVER commit processed evidence)
+output/*/
+!output/.gitkeep
+
+# Metadata CSV files
+*.csv
+
+# Checksums
+*_checksums*.txt
+
+# Processing logs with sensitive info
+*PROCESSING_LOG.txt
+*CHAIN_OF_CUSTODY*.txt
+*EVIDENCE_RECEIPT*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Compressed archives
+*.zip
+*.7z
+*.tar.gz
+
+# Large data files
+*.json
+!templates/**/*.json
+!examples/**/*.json
+
+# Secrets
+.env
+*.key
+*.pem
+*.p12
