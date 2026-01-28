@@ -1,9 +1,15 @@
 # Digital Evidence Gallery Generator
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![Status](https://img.shields.io/badge/status-production--ready-success)
+
 **Version**: 1.0.0
 **Created**: 2026-01-26
 **Status**: Production Ready
 **License**: MIT
+**Repository**: [github.com/Jobikinobi/DIGITAL-Forensics-Toolkit](https://github.com/Jobikinobi/DIGITAL-Forensics-Toolkit)
 
 A professional-grade toolkit for generating responsive, self-contained forensic evidence galleries from law enforcement digital evidence (photographs and documents).
 
@@ -71,16 +77,21 @@ unified-forensic-portal.html
 ### Installation
 
 ```bash
-# Clone or download this project
-cd Digital-Evidence-Gallery-Generator
+# Clone from GitHub
+git clone https://github.com/Jobikinobi/DIGITAL-Forensics-Toolkit.git
+cd DIGITAL-Forensics-Toolkit
 
 # Install Python dependencies
-pip install Pillow PyMuPDF
+pip3 install Pillow PyMuPDF
 
 # Install exiftool (macOS)
 brew install exiftool
 
 # Or download from: https://exiftool.org/
+
+# Verify installation
+python3 --version  # Should be 3.10+
+exiftool -ver      # Should be 12.0+
 ```
 
 ### Basic Usage
@@ -315,16 +326,29 @@ Digital-Evidence-Gallery-Generator/
 ## 📞 Support & Contributing
 
 ### Reporting Issues
-Create an issue with:
+Found a bug or issue? [Create an issue on GitHub](https://github.com/Jobikinobi/DIGITAL-Forensics-Toolkit/issues/new) with:
 - Evidence type and size
 - Error messages
 - Expected vs actual behavior
 - Screenshots if applicable
+- System information (OS, Python version, browser)
 
 ### Feature Requests
+Have an idea for improvement? [Open a feature request](https://github.com/Jobikinobi/DIGITAL-Forensics-Toolkit/issues/new) with:
 - Describe the use case
 - Explain current limitations
 - Suggest implementation approach
+- Expected benefits
+
+### Contributing
+Contributions welcome! Please:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+**For major changes**, please open an issue first to discuss what you'd like to change.
 
 ---
 
